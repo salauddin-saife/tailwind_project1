@@ -1,9 +1,10 @@
 import React from 'react'
+import Contain from './components/Contain'
 
 const App = () => {
   return (
-    <div> 
-      <navbar/>
+    <div>
+      <Contain/>
     </div>
   )
 }
