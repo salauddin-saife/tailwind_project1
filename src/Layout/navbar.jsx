@@ -15,7 +15,7 @@ const Navbar = () => {
                 <Image src={Logo_img} /> 
                 </div>
                 <div className="w-8/12 h-[143px] bg-green-500">
-                <List/>
+                
                 </div>
                 <div className="w-2/12 h-[143px] bg-red-500">Hello</div>
             </Flex>
