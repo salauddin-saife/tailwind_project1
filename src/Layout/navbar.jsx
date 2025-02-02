@@ -3,6 +3,7 @@ import Contain from "../components/Contain";
 import Flex from "../components/Flex";
 import Image from "../components/Image";
 import Logo_img from "../assets/logo_nav.png"
+import List
 
 const Navbar = () => {
   return (
@@ -10,10 +11,12 @@ const Navbar = () => {
       <nav className="">
         <Contain>
             <Flex>
-                <div className="w-2/12 h-[143px] bg-blue-500">
+                <div className="w-2/12 bg-white-500 h-[143px] ">
                 <Image src={Logo_img} /> 
                 </div>
-                <div className="w-8/12 h-[143px] bg-green-500">Hello</div>
+                <div className="w-8/12 h-[143px] bg-green-500">
+                <List/>
+                </div>
                 <div className="w-2/12 h-[143px] bg-red-500">Hello</div>
             </Flex>
             

@@ -3,7 +3,7 @@ import React from "react";
 const Contain = ({ children }) => {
   return (
     <div
-      className="max-w-container bg-red-500 mx-auto text-center
+      className="max-w-container mx-auto text-center
     "
     >
       {children}
