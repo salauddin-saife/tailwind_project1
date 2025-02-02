@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const Contain = () => {
+const Contain = ({ children }) => {
   return (
-    <div className="max-w-container bg-red-500 mx-auto
-    text-center">App</div>
-  )
-}
+    <div
+      className="max-w-container bg-red-500 mx-auto text-center
+    "
+    >
+      {children}
+    </div>
+  );
+};
 
-export default Contain
+export default Contain;
