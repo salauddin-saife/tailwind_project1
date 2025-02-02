@@ -1,4 +1,5 @@
 @import "tailwindcss";
 @theme {
     --spacing-container: 1170px; 
+    --font-poppins: "Poppins", "serif"; 
   }
