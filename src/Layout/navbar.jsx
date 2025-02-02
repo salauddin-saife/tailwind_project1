@@ -3,7 +3,8 @@ import Contain from "../components/Contain";
 import Flex from "../components/Flex";
 import Image from "../components/Image";
 import Logo_img from "../assets/logo_nav.png"
-import List
+import
+
 
 const Navbar = () => {
   return (
