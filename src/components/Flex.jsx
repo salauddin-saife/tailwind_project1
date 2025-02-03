@@ -9,7 +9,7 @@ import React from 'react'
 // }
 const Flex = ({ children, className }) => {
   return (
-    <div className={`flex bg-amber-300 ${className}`}>
+    <div className={`flex ${className}`}>
       {children}
     </div>
   );

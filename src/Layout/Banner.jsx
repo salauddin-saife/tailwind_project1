@@ -1,6 +1,8 @@
 import React from "react";
 import Contain from "../components/Contain";
 import Button from "../components/Button";
+import InputCard from "../components/InputCard";
+
 
 const Banner = () => {
   return (
@@ -20,11 +22,20 @@ const Banner = () => {
                 you.
               </p>
             </div>
-            <div className="pt-[70px] items-start text-left pointer-events-auto">
+            <div className="py-[70px] items-start text-left pointer-events-auto">
               <Button text={"Discover Now"} />
             </div>
-            <div className="pt-[70px]">
-              <input type="text" />
+            
+            <div className=" bg-amber-500 h-[130px] w-[825px] rounded-xl border-web_green border-2  ">
+              <input
+                type="text"
+                className=" px-6 py-5 h-[82px] w-[773px] bg-white rounded-xl "
+              />
+              <InputCard/>
+              
+
+              
+              <Button/>
             </div>
           </div>
           <div className="w-1/2"></div>
