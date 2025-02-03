@@ -33,7 +33,7 @@ const Navbar = () => {
 
             {/* Right Section */}
             <div className="w-2/12 h-full bg-white flex items-center justify-center">
-            <Button/>
+            <Button text={"Book now"}/>
             </div>
           </Flex>
         </Contain>

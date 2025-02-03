@@ -2,6 +2,9 @@
 @theme {
     --spacing-container: 1170px; 
     --font-poppins: "Poppins", "serif"; 
-    --color-web_green: #007F5F; 
+    --color-web_green: #007F5F;
+    --color-font_primary: #1E1E1E;
+    --color-font_paragraph: #616161;
+    
 
   }
