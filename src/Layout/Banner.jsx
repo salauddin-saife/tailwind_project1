@@ -57,7 +57,6 @@ const Banner = () => {
 
           {/* <div className="w-6/12 z-10 w-full">
             <div className="relative">
-              
             </div>
           </div> */}
         </Contain>
