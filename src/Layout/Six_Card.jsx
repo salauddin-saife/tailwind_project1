@@ -4,6 +4,12 @@ import Contain from "../components/Contain";
 import { FaFileInvoiceDollar } from "react-icons/fa6";
 import { RiPoliceBadgeFill } from "react-icons/ri";
 import { IoBookmarks } from "react-icons/io5";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { TbRosetteDiscountFilled } from "react-icons/tb";
+import { RiRefund2Line } from "react-icons/ri";
+
+
+
 
 const Six_Card = () => {
   return (
@@ -30,14 +36,17 @@ const Six_Card = () => {
       <div className="">
         <Contain className={"flex justify-around items-center align-middle"}>
           <Six_section_Card
+          Icon={MdOutlineSupportAgent}
             text_h1={"24/7 Support"}
             text_para={"We’re ready help you anytime and anywhere you are."}
           />
           <Six_section_Card
+          Icon={TbRosetteDiscountFilled}
             text_h1={"Best Offers"}
             text_para={"Inform you about all best offers for all destination."}
           />
           <Six_section_Card
+          Icon={RiRefund2Line}
             text_h1={"Fast Refund"}
             text_para={"If you canceled. We can refund your money 1*12."}
           />
