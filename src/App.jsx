@@ -5,7 +5,7 @@ import Banner from "./layout/Banner";
 import InputCard from "./components/InputCard";
 import Flex from "./components/Flex";
 import TravelPart from "./layout/TravelPart";
-import Six_section_Card from "./components/Six_section_Card";
+import Six_section_Card from "./components/Six_section_Card" ;
 import Six_Card from "./layout/Six_Card";
 import Popular_Destination from "./layout/Popular_Destination";
 import Book_Now_Layout from "./layout/Book_Now_Layout";
