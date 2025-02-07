@@ -3,6 +3,13 @@ import Number_Box from "../components/Number_Box";
 import Contain from "../components/Contain";
 import { BiSolidHandRight } from "react-icons/bi";
 import Button from "../components/Button";
+import { IoIosContacts } from "react-icons/io";
+import { RiContactsBook3Fill } from "react-icons/ri";
+import { IoMdTrophy } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
+
+
+
 
 const Number_Layout = () => {
   return (
@@ -51,18 +58,18 @@ const Number_Layout = () => {
             <div className="w-6/12">
               <div className="flex gap-x-8 pt-[60px]">
                 <div>
-                  <Number_Box />
+                  <Number_Box Icon={RiContactsBook3Fill} Number_Box_h1={"500K+"} Number_Box_h2={"Satisfied Clients"}/>
                 </div>
                 <div>
-                  <Number_Box />
+                  <Number_Box Icon={IoMdTrophy} Number_Box_h1={"250K+"} Number_Box_h2={"Active Achieve"}/>
                 </div>
               </div>
               <div className="flex gap-x-8 pt-[30px] pb-[60px] ">
                 <div>
-                  <Number_Box />
+                  <Number_Box Icon={IoIosContacts} Number_Box_h1={"15K+"} Number_Box_h2={"Active Members"}/>
                 </div>
                 <div>
-                  <Number_Box />
+                  <Number_Box  Icon={FaLocationDot} Number_Box_h1={"10K+"} Number_Box_h2={"Tour Destination"}/>
                 </div>
               </div>
             </div>
