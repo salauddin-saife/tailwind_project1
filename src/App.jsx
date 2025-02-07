@@ -9,6 +9,7 @@ import Six_section_Card from "./components/Six_section_Card" ;
 import Six_Card from "./layout/Six_Card";
 import Popular_Destination from "./layout/Popular_Destination";
 import Book_Now_Layout from "./layout/Book_Now_Layout";
+import Number_Layout from "./layout/Number_Layout";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Six_Card />
         <Popular_Destination />
         <Book_Now_Layout />
+        <Number_Layout/>
       </div>
     </section>
   );
