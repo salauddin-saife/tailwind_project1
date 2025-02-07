@@ -15,7 +15,7 @@ const Six_Card = () => {
   return (
     <div>
       <div className="">
-        <Contain className={"flex justify-around items-center align-middle"}>
+        <Contain className={"flex justify-around items-center align-middle gap-x-6"}>
           <Six_section_Card
             Icon={FaFileInvoiceDollar}
             text_h1={"Cheap than Other"}
@@ -34,7 +34,7 @@ const Six_Card = () => {
         </Contain>
       </div>
       <div className="">
-        <Contain className={"flex justify-around items-center align-middle"}>
+        <Contain className={"flex justify-around items-center align-middle gap-x-6"}>
           <Six_section_Card
           Icon={MdOutlineSupportAgent}
             text_h1={"24/7 Support"}

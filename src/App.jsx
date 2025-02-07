@@ -7,15 +7,21 @@ import Flex from "./components/Flex";
 import TravelPart from "./layout/TravelPart";
 import Six_section_Card from "./components/Six_section_Card";
 import Six_Card from "./layout/Six_Card";
+import Popular_Destination from "./layout/Popular_Destination";
+import Book_Now_Layout from "./layout/Book_Now_Layout";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Banner />
-      <TravelPart />
-      <Six_Card/>
-    </div>
+    <section className="max-w-[1920px]">
+      <div className="">
+        <Navbar />
+        <Banner />
+        <TravelPart />
+        <Six_Card />
+        <Popular_Destination />
+        <Book_Now_Layout />
+      </div>
+    </section>
   );
 };
 
