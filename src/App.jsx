@@ -11,6 +11,7 @@ import Popular_Destination from "./layout/Popular_Destination";
 import Book_Now_Layout from "./layout/Book_Now_Layout";
 import Number_Layout from "./layout/Number_Layout";
 import Destination_part from "./layout/Destination_part";
+import Events from "./layout/Events";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Book_Now_Layout />
         <Number_Layout/>
         <Destination_part/>
+        <Events/>
       </div>
     </section>
   );
