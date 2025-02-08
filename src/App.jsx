@@ -12,6 +12,7 @@ import Book_Now_Layout from "./layout/Book_Now_Layout";
 import Number_Layout from "./layout/Number_Layout";
 import Destination_part from "./layout/Destination_part";
 import Events from "./layout/Events";
+import Money_Back from "./layout/Money_Back";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Number_Layout/>
         <Destination_part/>
         <Events/>
+        <Money_Back/>
       </div>
     </section>
   );
