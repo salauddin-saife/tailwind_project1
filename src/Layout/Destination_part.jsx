@@ -3,6 +3,9 @@ import Contain from "../components/Contain";
 import Button from "../components/Button";
 import Image from "../components/Image";
 import Destination_img1 from "../assets/Destination_img1.png";
+import { FaSearch } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
+import Dots from "../assets/dots.png";
 
 const Destination_part = () => {
   return (
@@ -27,22 +30,39 @@ const Destination_part = () => {
               </div>
             </div>
             <div className="w-6/12">
-              <div className="scale-[80%] text-left align-top items-start pt-[50px] hover:scale-[85%] duration-300">
-                <Image src={Destination_img1} />
+              <div className="flex relative">
+                <div className="scale-[100%] text-left align-top items-start pt-[50px] flex justify-start hover:scale-[105%] duration-300 z-20">
+                  <Image src={Destination_img1} />
+                </div>
+                <div className="z-10 absolute left-[330px] top-[150px]">
+                  <Image src={Dots} />
+                </div>
               </div>
 
-              <div className="w-[350px] h-[178px] pl-[60px]">
-                <div className="h-[52px] bg-[#F9EBEB] rounded-md text-center items-center flex justify-center  font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300">
+              <div className="w-[350px] h-[178px] pt-[60px] pl-[15px]">
+                <div className="h-[52px] bg-[#F9EBEB] rounded-md text-center items-center flex justify-around  font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300 ">
                   <p>Recommended Destination</p>
+                  <div className="text-web_green">
+                    <FaSearch />
+                  </div>
                 </div>
-                <div className="h-[52px] bg-[#FFD3D3] rounded-md text-center items-center flex justify-center font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300">
+                <div className="h-[52px] bg-[#FFD3D3] rounded-md text-center items-center flex justify-around font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300 ">
                   <p>Venice, Italy</p>
+                  <div className="text-web_green text-right">
+                    <FaCheck />
+                  </div>
                 </div>
-                <div className="h-[52px] bg-[#0984E3]/20 rounded-md text-center items-center flex justify-center font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300">
+                <div className="h-[52px] bg-[#0984E3]/20 rounded-md text-center items-center flex justify-around font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300 ">
                   <p>Berlin, Germany</p>
+                  <div className="text-web_green text-right">
+                    <FaCheck />
+                  </div>
                 </div>
-                <div className="h-[52px] bg-[#F9EBEB] rounded-md text-center items-center flex justify-center font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300">
-                  <p>Berlin, Germany</p>
+                <div className="h-[52px] bg-[#F9EBEB] rounded-md text-center items-center flex justify-around font-poppins font-normal text-[16px] leading-[28px] text-font_paragraph hover:scale-[110%] duration-300 ">
+                  <p>Andalucia, Spain</p>
+                  <div className="text-web_green text-right">
+                    <FaCheck />
+                  </div>
                 </div>
               </div>
             </div>
