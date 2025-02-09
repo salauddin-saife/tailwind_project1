@@ -13,6 +13,8 @@ import Number_Layout from "./layout/Number_Layout";
 import Destination_part from "./layout/Destination_part";
 import Events from "./layout/Events";
 import Money_Back from "./layout/Money_Back";
+import Explore from "./layout/Explore";
+import Three_card from "./layout/Three_card";
 
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
         <Destination_part/>
         <Events/>
         <Money_Back/>
+        <Explore/>
+        <Three_card/>
       </div>
     </section>
   );
