@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Li = ({liText}) => {
+const Li = ({liText,liClass}) => {
     return (
       
-          <li >{liText}</li>
+          <li className={`${liClass}`}>{liText}</li>
       
     )
   }

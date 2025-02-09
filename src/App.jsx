@@ -17,6 +17,7 @@ import Explore from "./layout/Explore";
 import Three_card from "./layout/Three_card";
 import Testimonial from "./layout/Testimonial";
 import Subscribe from "./layout/Subscribe";
+import Footer from "./layout/Footer";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
         <Three_card/>
         <Testimonial/>
         <Subscribe/>
+        <Footer/>
       </div>
     </section>
   );

@@ -14,7 +14,7 @@ const Number_Box = ({className, Icon, Number_Box_h1, Number_Box_h2}) => {
             <div className="text-font_primary font-poppins text-[40px] font-semibold tracking-[0.2px] group-hover:text-white">
           <h1>{Number_Box_h1}</h1>
             </div>
-            <div className="text-font_paragraph font-poppins font-medium text-[20px] tracking-[0.2px] group-hover:text-white">
+            <div className="text-font_paragraph font-poppins font-medium text-[16px] tracking-[0.2px] group-hover:text-white">
               <h2>{Number_Box_h2}</h2>
             </div>
           </div>
