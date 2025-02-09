@@ -15,6 +15,8 @@ import Events from "./layout/Events";
 import Money_Back from "./layout/Money_Back";
 import Explore from "./layout/Explore";
 import Three_card from "./layout/Three_card";
+import Testimonial from "./layout/Testimonial";
+import Subscribe from "./layout/Subscribe";
 
 const App = () => {
   return (
@@ -32,6 +34,8 @@ const App = () => {
         <Money_Back/>
         <Explore/>
         <Three_card/>
+        <Testimonial/>
+        <Subscribe/>
       </div>
     </section>
   );

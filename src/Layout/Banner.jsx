@@ -11,8 +11,8 @@ import Banner_back from "../assets/banner_back.png";
 const Banner = () => {
   return (
     <div>
-      <section className="bg-[#F8F8F8]  z-30 relative ">
-        <div className="z-10">
+      <section className="bg-[#F8F8F8]  z-30  ">
+        <div className="z-10 relative">
           <div className="absolute top-[483px] left-[378px]">
             <Image className={"w-[80%]"} src={Banner_back} />
           </div>

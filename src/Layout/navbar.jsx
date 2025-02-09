@@ -10,7 +10,7 @@ import Button from "../components/Button";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="">
       <nav className="bg-white">
         <Contain className="h-[143px] ">
           <Flex className="items-center w-full h-full">
