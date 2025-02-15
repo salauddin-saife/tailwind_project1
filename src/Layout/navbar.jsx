@@ -21,7 +21,7 @@ const Navbar = () => {
             {/* Navigation Links */}
             <div className="w-8/12 h-full bg-white flex items-center justify-center">
               <ul className="flex gap-x-10 h-full items-center font-poppins text-[#616161] font-normal text-[16px]">
-                <Link to={"/home"}>
+                <Link to={"/"}>
                   <Li liText="Home" />
                 </Link>
 

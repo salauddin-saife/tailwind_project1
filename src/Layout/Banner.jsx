@@ -23,7 +23,7 @@ const Banner = () => {
         <Contain className="h-[886px] flex z-30">
           <div className="w-6/12 z-30">
             <div className=" ">
-              <h1 className="font-poppins text-[65px] w-[573px] font-semibold text-[#1E1E1E] leading-[80px] tracking-[0.2px] text-left pt-[135px]">
+              <h1 className="font-poppins  text-3xl md:text-[65px] w-[573px] font-semibold text-[#1E1E1E] leading-[80px] tracking-[0.2px] text-left pt-[135px]">
                 Start Exploring to Find Inner Peace by Traveling
               </h1>
             </div>

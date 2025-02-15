@@ -30,7 +30,7 @@ import Tours from "./Pages/Tours";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/home" element={<Home />}></Route>
+      <Route path="/" element={<Home />}></Route>
       <Route path="/tours" element={<Tours />}></Route>
     </>
   )
