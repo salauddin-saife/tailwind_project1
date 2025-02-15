@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Contain from "../components/Contain";
 import Flex from "../components/Flex";
 import Image from "../components/Image";
@@ -8,6 +8,11 @@ import Button from "../components/Button";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  // let [show, setShow] = useState(false);
+  // let handleClick = () => {
+  //   setShow(!show);
+  // };
+
   return (
     <div className="">
       <nav className="bg-white">
@@ -26,13 +31,19 @@ const Navbar = () => {
                 </Link>
 
                 <Link to={"/tours"}>
-                <Li liText="Tours" />
+                  <Li liText="Tours" />
                 </Link>
-                
+
                 <Li liText="Bookings" />
                 <Li liText="Pages" />
                 <Li liText="Features" />
-                <Li liText="Blog" />
+                <Li liText="Blog"  />
+                {/* <li onClick={handleClick} className=" pointer-events-auto">
+                <Li liText="Blog"  />
+                </li>
+                
+                
+                {show && <h1>Hello</h1>} */}
               </ul>
             </div>
 
@@ -40,6 +51,8 @@ const Navbar = () => {
             <div className="w-2/12 h-full bg-white flex items-center justify-center">
               <Button text={"Book now"} />
             </div>
+            
+            
           </Flex>
         </Contain>
       </nav>
